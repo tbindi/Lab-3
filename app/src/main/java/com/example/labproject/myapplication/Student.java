@@ -11,6 +11,7 @@ public class Student {
     public Student(){}
 
 
+<<<<<<< HEAD
 
     public float getmGPA() {
         return mGPA;
@@ -20,6 +21,8 @@ public class Student {
         this.mGPA = mGPA;
     }
 
+=======
+>>>>>>> 4b77b949b094da192244c83192acd178caee6ec3
     public int getmID() {
         return mID;
     }
@@ -27,6 +30,7 @@ public class Student {
     public void setmID(int mID) {
         this.mID = mID;
     }
+<<<<<<< HEAD
 
     public String getmLastName() {
         return mLastName;
@@ -35,4 +39,6 @@ public class Student {
     public void setmLastName(String mLastName) {
         this.mLastName = mLastName;
     }
+=======
+>>>>>>> 4b77b949b094da192244c83192acd178caee6ec3
 }

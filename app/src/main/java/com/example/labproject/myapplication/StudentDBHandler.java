@@ -1,8 +1,12 @@
 package com.example.labproject.myapplication;
 
+<<<<<<< HEAD
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
+=======
+import android.content.Context;
+>>>>>>> 4b77b949b094da192244c83192acd178caee6ec3
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -27,10 +31,14 @@ public class StudentDBHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         // Write your create string here.
+<<<<<<< HEAD
         String createSQL = "CREATE TABLE " + TABLE + " (" +
                 COLUMN_STUDENT_ID + " INTEGER PRIMARY KEY, "+
                 COLUMN_STUDENT_LASTNAME + " TEXT, " +
                 COLUMN_STUDENT_GPA + " FLOAT)";
+=======
+        String createSQL = "";
+>>>>>>> 4b77b949b094da192244c83192acd178caee6ec3
         db.execSQL(createSQL);
     }
 
@@ -41,6 +49,7 @@ public class StudentDBHandler extends SQLiteOpenHelper {
     }
 
     public void addStudent(Student s){
+<<<<<<< HEAD
         ContentValues cv = new ContentValues();
         cv.put(COLUMN_STUDENT_ID, s.getmID());
         cv.put(COLUMN_STUDENT_LASTNAME, s.getmLastName());
@@ -73,6 +82,14 @@ public class StudentDBHandler extends SQLiteOpenHelper {
         }
 
         db.close();
+=======
+
+    }
+
+    public Student findStudent(int id){
+        Student s = null;
+        
+>>>>>>> 4b77b949b094da192244c83192acd178caee6ec3
         return s;
     }
 

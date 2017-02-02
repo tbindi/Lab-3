@@ -74,8 +74,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Add"
+<<<<<<< HEAD
                 android:id="@+id/button"
                 android:onClick="addClick"/>
+=======
+                android:id="@+id/button" />
+>>>>>>> 4b77b949b094da192244c83192acd178caee6ec3
 
             <Button
                 android:layout_width="wrap_content"
@@ -83,7 +87,10 @@
                 android:text="FIND"
                 android:id="@+id/button2"
                 android:layout_column="1"
+<<<<<<< HEAD
                 android:onClick="findClick"
+=======
+>>>>>>> 4b77b949b094da192244c83192acd178caee6ec3
                 android:width="100dp" />
         </TableRow>
     </TableLayout>

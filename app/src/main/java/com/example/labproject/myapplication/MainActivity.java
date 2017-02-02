@@ -1,11 +1,16 @@
 package com.example.labproject.myapplication;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.support.annotation.IntegerRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+>>>>>>> 4b77b949b094da192244c83192acd178caee6ec3
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+<<<<<<< HEAD
     public void addClick(View view){
         EditText e1 = (EditText) findViewById(R.id.editText);
         EditText e2 = (EditText) findViewById(R.id.editText2);
@@ -49,4 +55,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+=======
+
+
+
+>>>>>>> 4b77b949b094da192244c83192acd178caee6ec3
 }
